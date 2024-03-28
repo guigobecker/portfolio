@@ -3,7 +3,7 @@
   font-weight: 600;
   text-decoration: none;
   letter-spacing: -0.05em;
-  background: #00c6ff; /* fallback for old browsers */
+  background: #0072ff; /* fallback para navegadores antigos */
   background: -webkit-linear-gradient(
     to right,
     #0072ff,
