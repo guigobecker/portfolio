@@ -40,6 +40,12 @@
   margin-top: 5rem;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .container {

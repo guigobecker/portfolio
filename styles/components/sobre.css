@@ -48,12 +48,6 @@
   color: var(--clr-slate600);
 }
 
-.sobre__img {
-  display: block;
-  max-width: 100%;
-  user-select: none;
-}
-
 /* xs */
 @media (min-width: 475px) {
   .sobre {
