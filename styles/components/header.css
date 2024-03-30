@@ -4,6 +4,8 @@
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  position: relative;
+  z-index: 9999;
 }
 
 .header__menu {
@@ -46,7 +48,6 @@
   }
 
   .header__sol {
-    display: block;
     color: var(--clr-slate600);
     width: var(--size-base);
     height: var(--size-base);

@@ -6,4 +6,9 @@ import '../styles/components/sobre.css';
 import '../styles/components/projetos.css';
 import '../styles/components/contato.css';
 import '../styles/components/footer.css';
+import '../styles/components/mobile-nav.css';
 import '../styles/utils.css';
+
+import mobileNav from './utils/mobile-nav';
+
+mobileNav();
