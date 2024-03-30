@@ -5,4 +5,5 @@ import '../styles/components/hero.css';
 import '../styles/components/sobre.css';
 import '../styles/components/projetos.css';
 import '../styles/components/contato.css';
+import '../styles/components/footer.css';
 import '../styles/utils.css';
