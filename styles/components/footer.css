@@ -44,7 +44,7 @@
     align-items: center;
     list-style: none;
     padding: 0;
-    gap: 2em;
+    gap: 5em;
   }
 }
 
@@ -52,5 +52,9 @@
 @media (min-width: 1024px) {
   .footer__link {
     font-size: var(--size-sm);
+  }
+
+  .footer__link-icone {
+    font-size: var(--size-lg);
   }
 }

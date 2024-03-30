@@ -47,7 +47,7 @@
     padding-top: 1.5em;
   }
 
-  .header__sol {
+  .header__icone {
     color: var(--clr-slate600);
     width: var(--size-base);
     height: var(--size-base);
@@ -68,7 +68,7 @@
     font-size: var(--size-sm);
   }
 
-  .header__sol {
+  .header__icone {
     width: var(--size-xl);
     height: var(--size-xl);
   }

@@ -14,7 +14,7 @@
     #0072ff,
     #00c6ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: var(--clr-light);
+  color: #f1f5f9;
   padding: 0.5em 1em;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgba(0, 114, 255, 0.5),
