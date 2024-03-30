@@ -15,7 +15,7 @@ Visualize meus principais projetos pessoais.
 ## Preview
 
 ### Modo Claro
-![Alt text](./portfolio.png)
+![Alt text](public/portfolio.png)
 
 ### Modo Escuro
-![Alt text](./dark-mode.png)
+![Alt text](public/dark-mode.png)
