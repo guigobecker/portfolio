@@ -3,12 +3,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 1rem;
   margin-top: 2rem;
 }
 
+.hero__img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+}
+
 .hero__titulo {
-  color: var(--clr-slate400);
+  color: var(--clr-light);
   text-transform: uppercase;
   font-size: var(--size-4xl);
   letter-spacing: -0.05em;
@@ -18,25 +25,28 @@
 .hero__subtitulo {
   font-size: var(--size-base);
   line-height: 0.9;
-  background: #0072ff; /* fallback para navegadores antigos */
-  background: -webkit-linear-gradient(
-    to right,
-    #0072ff,
-    #00c6ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0072ff,
-    #00c6ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--clr-slate600);
+}
+
+.hero__descricao {
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
+}
+
+.hero__btn {
+  text-transform: capitalize;
+  font-size: var(--size-sm);
 }
 
 /* xs */
 @media (min-width: 475px) {
   .hero {
     gap: 1.5rem;
+  }
+
+  .hero__img {
+    width: 6.5rem;
+    height: 6.5rem;
   }
   
   .hero__titulo {
@@ -46,16 +56,37 @@
   .hero__subtitulo {
     font-size: var(--size-lg);
   }
+
+  .hero__descricao {
+    font-size: var(--size-base);
+  }
+
+  .hero__btn {
+    font-size: var(--size-base);
+  }
 }
 
 /* lg */
 @media (min-width: 1024px) {
+  .hero__img {
+    width: 8rem;
+    height: 8rem;
+  }
+
   .hero__titulo {
     font-size: var(--size-7xl);
   }
   
   .hero__subtitulo {
     font-size: var(--size-2xl);
+  }
+
+  .hero__descricao {
+    font-size: var(--size-lg);
+  }
+
+  .hero__btn {
+    font-size: var(--size-lg);
   }
 }
 
@@ -65,11 +96,24 @@
     gap: 2rem;
   }
 
+  .hero__img {
+    width: 10rem;
+    height: 10rem;
+  }
+
   .hero__titulo {
     font-size: var(--size-9xl);
   }
   
   .hero__subtitulo {
     font-size: var(--size-4xl);
+  }
+
+  .hero__descricao {
+    font-size: var(--size-xl);
+  }
+
+  .hero__btn {
+    font-size: var(--size-xl);
   }
 }

@@ -53,10 +53,6 @@
     height: var(--size-base);
   }
 
-  .header__curriculo {
-    font-size: var(--size-xs);
-  }
-
   .header__barra {
     display: none;
   }
@@ -71,9 +67,5 @@
   .header__icone {
     width: var(--size-xl);
     height: var(--size-xl);
-  }
-
-  .header__curriculo {
-    font-size: var(--size-sm);
   }
 }
