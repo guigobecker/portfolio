@@ -14,7 +14,10 @@
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,%3Csvg
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/svg+xml,%3Csvg
     xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'%3E%3C!--!Font
     Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License -
     https://fontawesome.com/license/free Copyright 2024 Fonticons,
@@ -25,7 +28,8 @@
     0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7
     0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112
     112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5
-    12.5-32.8 0-45.3z'/%3E%3C/svg%3E">
+    12.5-32.8 0-45.3z'/%3E%3C/svg%3E"
+    />
     <title>Rodrigo Becker</title>
   </head>
   <body>
@@ -71,7 +75,12 @@
           JavaScript | HTML | CSS | Tailwind | Styled Components | Responsive
           Design | TypeScript | MySQL | Git | Python | Java
         </p>
-        <a class="hero__btn btn" href="/CurriculoRodrigoBecker.pdf" target="_blank">Currículo</a>
+        <a
+          class="hero__btn btn"
+          href="/CurriculoRodrigoBecker.pdf"
+          target="_blank"
+          >Currículo</a
+        >
       </section>
       <section id="sobre" class="sobre container section">
         <div class="sobre__conteudo">
@@ -115,40 +124,85 @@
         <h2 class="projetos__titulo">Projetos</h2>
         <div class="projetos__container">
           <!-- Projeto 1 -->
-          <h3 class="projetos__projeto-titulo">É Um Palíndromo?</h3>
+          <h3 class="projetos__projeto-titulo">Biblioteca Pessoal</h3>
           <div class="projetos__imagem1">
             <img
               class="lazy loading"
-              src="https://placehold.co/2048"
+              src="https://placehold.co/1365x734"
+              data-src="/biblioteca-pessoal.png"
+              alt="Projeto Biblioteca Pessoal"
+            />
+          </div>
+          <div class="projetos__projeto projetos__conteudo1">
+            <h3 class="projetos__projeto-subtitulo">Biblioteca Pessoal</h3>
+            <p class="projetos__projeto-descricao1">
+              Escreva resenhas e avaliações de livros.
+            </p>
+            <p class="projetos__projeto-descricao2">
+              Tecnologias utilizadas: JavaScript, Vue.js, Tailwind, PHP e
+              Laravel.
+            </p>
+          </div>
+          <!-- Projeto 2 -->
+          <h3 class="projetos__projeto-titulo">Loja do Guigo</h3>
+          <div class="projetos__imagem2">
+            <img
+              class="lazy loading"
+              src="https://placehold.co/3840x2160"
+              data-src="/loja-do-guigo.png"
+              alt="Projeto Loja do Guigo"
+            />
+          </div>
+          <div class="projetos__projeto projetos__conteudo2">
+            <h3 class="projetos__projeto-subtitulo">Loja do Guigo</h3>
+            <p class="projetos__projeto-descricao1">
+              Cliente web de uma loja virtual.
+            </p>
+            <p class="projetos__projeto-descricao2">
+              Tecnologias utilizadas: TypeScript, Vue.js, Tailwind e Fake Store
+              API.
+            </p>
+            <a
+              class="btn projetos__projeto-btn"
+              href="https://loja-do-guigo.vercel.app"
+              >Site</a
+            >
+          </div>
+          <!-- Projeto 3 -->
+          <h3 class="projetos__projeto-titulo">É Um Palíndromo?</h3>
+          <div class="projetos__imagem3">
+            <img
+              class="lazy loading"
+              src="https://placehold.co/3840x2160"
               data-src="/verifica-palindromo.png"
               alt="Projeto 'É Um Palíndromo?'"
             />
           </div>
-          <div class="projetos__projeto projetos__conteudo1">
+          <div class="projetos__projeto projetos__conteudo3">
             <h3 class="projetos__projeto-subtitulo">É Um Palíndromo?</h3>
             <p class="projetos__projeto-descricao1">
-              Aplicação que verifica se uma palavra é ou não um palíndromo.
+              Verifique se uma palavra é ou não um palíndromo.
             </p>
             <p class="projetos__projeto-descricao2">
               Tecnologias utilizadas: JavaScript, HTML e CSS.
             </p>
             <a
               class="btn projetos__projeto-btn"
-              href="https://verifica-palindromo.vercel.app/"
+              href="https://verifica-palindromo.vercel.app"
               >Site</a
             >
           </div>
-          <!-- Projeto 2 -->
+          <!-- Projeto 4 -->
           <h3 class="projetos__projeto-titulo">Gerador de Citações</h3>
-          <div class="projetos__imagem2">
+          <div class="projetos__imagem4">
             <img
               class="lazy loading"
-              src="https://placehold.co/2048"
+              src="https://placehold.co/3840x2160"
               data-src="/gerador-de-citacoes.png"
               alt="Projeto 'Gerador de Citações'"
             />
           </div>
-          <div class="projetos__projeto projetos__conteudo2">
+          <div class="projetos__projeto projetos__conteudo4">
             <h3 class="projetos__projeto-subtitulo">Gerador de Citações</h3>
             <p class="projetos__projeto-descricao1">
               Aplicação que gera citações filosóficas aleatórias.
@@ -158,7 +212,55 @@
             </p>
             <a
               class="btn projetos__projeto-btn"
-              href="https://gerador-de-citacoes-guigo.vercel.app/"
+              href="https://gerador-de-citacoes-guigo.vercel.app"
+              >Site</a
+            >
+          </div>
+          <!-- Projeto 5 -->
+          <h3 class="projetos__projeto-titulo">Cronômetro</h3>
+          <div class="projetos__imagem5">
+            <img
+              class="lazy loading"
+              src="https://placehold.co/3840x2160"
+              data-src="/cronometro.png"
+              alt="Projeto Cronômetro"
+            />
+          </div>
+          <div class="projetos__projeto projetos__conteudo5">
+            <h3 class="projetos__projeto-subtitulo">Cronômetro</h3>
+            <p class="projetos__projeto-descricao1">
+              Marque intervalos de tempo.
+            </p>
+            <p class="projetos__projeto-descricao2">
+              Tecnologias utilizadas: JavaScript, HTML e CSS.
+            </p>
+            <a
+              class="btn projetos__projeto-btn"
+              href="https://cronometro-guigo.vercel.app"
+              >Site</a
+            >
+          </div>
+          <!-- Projeto 6 -->
+          <h3 class="projetos__projeto-titulo">Social Links</h3>
+          <div class="projetos__imagem6">
+            <img
+              class="lazy loading"
+              src="https://placehold.co/3840x2160"
+              data-src="/social-links.png"
+              alt="Projeto Social Links"
+            />
+          </div>
+          <div class="projetos__projeto projetos__conteudo6">
+            <h3 class="projetos__projeto-subtitulo">Social Links</h3>
+            <p class="projetos__projeto-descricao1">
+              Acesse os links para as minhas redes sociais.
+            </p>
+            <p class="projetos__projeto-descricao2">
+              Tecnologias utilizadas: HTML e CSS.
+            </p>
+            <a
+              class="btn projetos__projeto-btn"
+              href="https://social-links-guigo.vercel.app"
               >Site</a
             >
           </div>
