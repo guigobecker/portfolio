@@ -4,7 +4,7 @@ Visualize meus principais projetos pessoais.
 
 ## Acessar
 
-<li>Acesse em <a href="https://portfolio-rbecker.vercel.app/">portfolio-rbecker.vercel.app</a>.</li>
+<li>Acesse em <a href="https://rodrigoschmidtbecker.vercel.app/">rodrigoschmidtbecker.vercel.app</a>.</li>
 
 ## Tecnologias Utilizadas
 
